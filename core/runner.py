@@ -56,6 +56,7 @@ from bacpypes3.primitivedata import ObjectIdentifier
 from config.settings import AppConfig
 from core.transport import BACnetTransport
 from core.hooks import HookManager
+from rich import print
 
 log = logging.getLogger("testbench.runner")
 
@@ -318,8 +319,13 @@ class TestRunner:
     async def _restore_oos(self, result: TestResult):
         """
         Safety restore — ALWAYS runs in finally block.
-        Logs CRITICAL if it fails so a human knows to check manually.
+        Waits restore_buffer seconds first so you can observe the injected
+        state in Yabe before the controller returns to normal operation.
         """
+        buffer = self._cfg.timing.restore_buffer
+        print(f"[dim]  Waiting {buffer:.0f}s before restoring Out-Of-Service...[/dim]")
+        await asyncio.sleep(buffer)
+        
         log.info("Restore | out-of-service → False")
         try:
             await self._transport.write(

@@ -34,6 +34,7 @@ import logging
 import os
 from datetime import datetime
 from pathlib import Path
+from rich import print
 
 log = logging.getLogger("testbench.hooks.builtin")
 

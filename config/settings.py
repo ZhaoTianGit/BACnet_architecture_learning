@@ -84,7 +84,7 @@ class TimingConfig:
     socket_bind:     float = 1.0  # wait for OS to bind UDP socket
     post_write:      float = 1.0  # wait for controller to process write
     verify_read:     float = 2.0  # wait before read-back
-
+    restore_buffer:  float = 10.0 # wait before restoring original value (in case of failure)
 
 @dataclass
 class AppConfig:

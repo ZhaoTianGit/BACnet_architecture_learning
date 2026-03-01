@@ -92,7 +92,7 @@ def configure() -> AppConfig:
     You could swap this for reading from a YAML file, CLI args, or a database.
     """
     # ── Update the port Yabe shows for the simulator ──────────────────────────
-    cfg.dut.port = 63205      # ⚠ update from Yabe after every restart
+    cfg.dut.port = 53752      # ⚠ update from Yabe after every restart
 
     # ── Change what value to inject ───────────────────────────────────────────
     cfg.test.test_value = 31.0
