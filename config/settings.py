@@ -118,6 +118,30 @@ class PollConfig:
     history_length:  int   = 50          # readings to keep in memory per object
 
     poll_targets: list = field(default_factory=lambda: [
+        # ── Analog Inputs (AI) — read-only sensors ────────────────────────────
+        PollTarget(
+            object_id  = "analog-input,0",
+            label      = "T Indoor",
+            unit       = "°C",
+            low_alarm  = 15.0,
+            high_alarm = 35.0,
+        ),
+        PollTarget(
+            object_id  = "analog-input,1",
+            label      = "T Water",
+            unit       = "°C",
+            low_alarm  = 5.0,
+            high_alarm = 60.0,
+        ),
+        PollTarget(
+            object_id  = "analog-input,2",
+            label      = "T Outdoor",
+            unit       = "°C",
+            low_alarm  = -10.0,
+            high_alarm = 45.0,
+        ),
+
+        # ── Analog Values (AV) — writable setpoints ───────────────────────────
         PollTarget(
             object_id  = "analog-value,0",
             label      = "T Set",
@@ -125,16 +149,60 @@ class PollConfig:
             low_alarm  = 10.0,
             high_alarm = 40.0,
         ),
-        # Uncomment to poll more objects simultaneously:
-        # PollTarget(object_id="analog-value,1", label="T Room", unit="°C"),
-        # PollTarget(object_id="binary-value,0",  label="Fan",    unit=""),
-        # ── NEW: Temperature Indoor (AI:0) ────────────────────────────────────
         PollTarget(
-            object_id  = "analog-input,0",   # AI:0 from Yabe
-            label      = "T Indoor",
+            object_id  = "analog-value,1",
+            label      = "Setpoint 1",
             unit       = "°C",
-            low_alarm  = 15.0,               # alert if room drops below 15°C
-            high_alarm = 35.0,               # alert if room exceeds 35°C
+            low_alarm  = None,
+            high_alarm = None,
+        ),
+        PollTarget(
+            object_id  = "analog-value,2",
+            label      = "Setpoint 2",
+            unit       = "°C",
+            low_alarm  = None,
+            high_alarm = None,
+        ),
+        PollTarget(
+            object_id  = "analog-value,3",
+            label      = "Setpoint 3",
+            unit       = "°C",
+            low_alarm  = None,
+            high_alarm = None,
+        ),
+
+        # ── Binary Values (BV) — on/off states ───────────────────────────────
+        # No numeric alarms for binary — just monitoring state
+        PollTarget(
+            object_id  = "binary-value,0",
+            label      = "Heater",
+            unit       = "",
+            low_alarm  = None,
+            high_alarm = None,
+        ),
+        PollTarget(
+            object_id  = "binary-value,1",
+            label      = "Chiller",
+            unit       = "",
+            low_alarm  = None,
+            high_alarm = None,
+        ),
+
+        # ── Multi-State Values (MV) — enumerated modes ────────────────────────
+        # Value = integer (1, 2, 3...) representing ventilation level/mode
+        PollTarget(
+            object_id  = "multi-state-value,0",
+            label      = "State",
+            unit       = "",
+            low_alarm  = None,
+            high_alarm = None,
+        ),
+        PollTarget(
+            object_id  = "multi-state-value,1",
+            label      = "Vent Level",
+            unit       = "",
+            low_alarm  = None,
+            high_alarm = None,
         ),
     ])
 
