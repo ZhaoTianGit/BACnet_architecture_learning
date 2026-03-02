@@ -19,9 +19,6 @@
 ================================================================================
 """
 
-from dataclasses import dataclass, field
-
-
 # =============================================================================
 # @dataclass — ARCHITECTURE LESSON: Data Classes
 # =============================================================================
@@ -38,26 +35,31 @@ from dataclasses import dataclass, field
 #   dut.ip, dut.port   ← DUT settings live together
 #   net.local_ip       ← Network settings live together
 
+"""
+================================================================================
+ config/settings.py  —  Updated: added PollConfig and PollTarget
+================================================================================
+ WHAT CHANGED FROM V1:
+   + PollTarget dataclass — describes one BACnet object to monitor
+   + PollConfig dataclass — polling engine settings (interval, targets, alarms)
+   + AppConfig gains a new 'poll' field
+================================================================================
+"""
+
+from dataclasses import dataclass, field
+
+
 @dataclass
 class DUTConfig:
-    """
-    DUT = Device Under Test.
-    Everything that describes the target BACnet device.
-    ⚠ Update 'port' every time Yabe/simulator restarts.
-    """
     ip:              str   = "192.168.100.183"
-    port:            int   = 63205            # ⚠ dynamic — check Yabe each run
+    port:            int   = 63205            # ⚠ update from Yabe each restart
     device_id:       int   = 3506259
-    object_id:       str   = "analog-value,0" # AV:0 = SetPoint.Value
+    object_id:       str   = "analog-value,0"
     object_name:     str   = "SetPoint.Value"
 
 
 @dataclass
 class NetworkConfig:
-    """
-    Local testbench network settings.
-    Use explicit NIC IP, not 0.0.0.0, to control routing on multi-NIC servers.
-    """
     local_ip:        str   = "192.168.100.183"
     local_port:      int   = 47810
     device_id:       int   = 9999
@@ -67,39 +69,75 @@ class NetworkConfig:
 
 @dataclass
 class TestConfig:
-    """
-    What to inject and how.
-    """
-    test_value:      float = 31.0   # °C — the value to inject
-    write_priority:  int   = 8      # 8 = Manual Operator (ASHRAE standard)
-    tolerance:       float = 0.01   # float comparison delta
+    test_value:      float = 31.0
+    write_priority:  int   = 8
+    tolerance:       float = 0.01
 
 
 @dataclass
 class TimingConfig:
+    socket_bind:     float = 1.0
+    post_write:      float = 1.0
+    verify_read:     float = 2.0
+    restore_buffer:  float = 10.0
+
+
+# =============================================================================
+# NEW — Polling
+# =============================================================================
+
+@dataclass
+class PollTarget:
     """
-    All sleep/delay values in one place.
-    In a fast CI/CD pipeline you can reduce these to speed up test runs.
+    One BACnet object to poll continuously.
+
+    ARCHITECTURE LESSON: Small focused dataclasses over big messy dicts.
+    Instead of {"object_id": "analog-value,0", "label": "T Set", ...}
+    you get tab-completion, type hints, and clear defaults.
     """
-    socket_bind:     float = 1.0  # wait for OS to bind UDP socket
-    post_write:      float = 1.0  # wait for controller to process write
-    verify_read:     float = 2.0  # wait before read-back
-    restore_buffer:  float = 10.0 # wait before restoring original value (in case of failure)
+    object_id:   str          = "analog-value,0"
+    label:       str          = "Value"
+    unit:        str          = ""
+    low_alarm:   float | None = None   # alert if value drops below this
+    high_alarm:  float | None = None   # alert if value rises above this
+
+
+@dataclass
+class PollConfig:
+    """
+    Settings for the continuous polling engine.
+
+    ARCHITECTURE LESSON: The 'poll_targets' list is the extension point.
+    Add more PollTarget entries to monitor more objects — no code changes needed.
+    This is the same plug-and-play principle as hooks, but for data targets.
+    """
+    interval:        float = 2.0         # seconds between poll cycles
+    max_cycles:      int   = 0           # 0 = run forever
+    log_to_csv:      bool  = True        # save all readings to CSV
+    show_live_table: bool  = True        # Rich live table in terminal
+    history_length:  int   = 50          # readings to keep in memory per object
+
+    poll_targets: list = field(default_factory=lambda: [
+        PollTarget(
+            object_id  = "analog-value,0",
+            label      = "T Set",
+            unit       = "°C",
+            low_alarm  = 10.0,
+            high_alarm = 40.0,
+        ),
+        # Uncomment to poll more objects simultaneously:
+        # PollTarget(object_id="analog-value,1", label="T Room", unit="°C"),
+        # PollTarget(object_id="binary-value,0",  label="Fan",    unit=""),
+    ])
+
 
 @dataclass
 class AppConfig:
-    """
-    MASTER CONFIG — the one object you pass around the whole app.
-    Composes all sub-configs into one clean package.
-    """
-    dut:     DUTConfig     = field(default_factory=DUTConfig)
-    net:     NetworkConfig = field(default_factory=NetworkConfig)
-    test:    TestConfig    = field(default_factory=TestConfig)
-    timing:  TimingConfig  = field(default_factory=TimingConfig)
+    dut:    DUTConfig     = field(default_factory=DUTConfig)
+    net:    NetworkConfig = field(default_factory=NetworkConfig)
+    test:   TestConfig    = field(default_factory=TestConfig)
+    timing: TimingConfig  = field(default_factory=TimingConfig)
+    poll:   PollConfig    = field(default_factory=PollConfig)   # ← NEW
 
 
-# =============================================================================
-# The one config instance the whole app uses
-# =============================================================================
-# Import this anywhere with:  from config.settings import cfg
 cfg = AppConfig()
