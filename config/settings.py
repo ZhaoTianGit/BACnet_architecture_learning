@@ -128,6 +128,14 @@ class PollConfig:
         # Uncomment to poll more objects simultaneously:
         # PollTarget(object_id="analog-value,1", label="T Room", unit="°C"),
         # PollTarget(object_id="binary-value,0",  label="Fan",    unit=""),
+        # ── NEW: Temperature Indoor (AI:0) ────────────────────────────────────
+        PollTarget(
+            object_id  = "analog-input,0",   # AI:0 from Yabe
+            label      = "T Indoor",
+            unit       = "°C",
+            low_alarm  = 15.0,               # alert if room drops below 15°C
+            high_alarm = 35.0,               # alert if room exceeds 35°C
+        ),
     ])
 
 
