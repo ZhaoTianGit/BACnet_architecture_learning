@@ -1,0 +1,390 @@
+timestamp,object_id,label,value,unit,in_alarm
+2026-03-05T00:07:11.628702,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A241E8B0>,°C,False
+2026-03-05T00:07:11.629050,"analog-value,0",T Set,<bacpypes3.primitivedata.Any object at 0x00000141A26AC410>,°C,False
+2026-03-05T00:07:11.635479,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000141A27112B0>,,False
+2026-03-05T00:07:11.637040,"analog-value,3",Setpoint 3,<bacpypes3.primitivedata.Any object at 0x00000141A26E64E0>,°C,False
+2026-03-05T00:07:11.637692,"analog-value,2",Setpoint 2,<bacpypes3.primitivedata.Any object at 0x00000141A26E7700>,°C,False
+2026-03-05T00:07:11.638277,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A26E5E00>,°C,False
+2026-03-05T00:07:11.638934,"analog-input,2",T Outdoor,<bacpypes3.primitivedata.Any object at 0x00000141A26E6AD0>,°C,False
+2026-03-05T00:07:11.639546,"analog-value,1",Setpoint 1,<bacpypes3.primitivedata.Any object at 0x00000141A26E6A80>,°C,False
+2026-03-05T00:07:11.640147,"multi-state-value,0",State,<bacpypes3.primitivedata.Any object at 0x00000141A26E7340>,,False
+2026-03-05T00:07:11.640896,"binary-value,1",Chiller,<bacpypes3.primitivedata.Any object at 0x00000141A26E6940>,,False
+2026-03-05T00:07:11.641612,"binary-value,0",Heater,<bacpypes3.primitivedata.Any object at 0x00000141A26E6080>,,False
+2026-03-05T00:07:11.751050,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A26E6030>,°C,False
+2026-03-05T00:07:12.751825,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A271C730>,°C,False
+2026-03-05T00:07:12.752414,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000141A271C410>,,False
+2026-03-05T00:07:13.762122,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A271EC60>,°C,False
+2026-03-05T00:07:13.762931,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A271C190>,°C,False
+2026-03-05T00:07:14.760907,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A26E7A70>,°C,False
+2026-03-05T00:07:14.761557,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A26E7A20>,°C,False
+2026-03-05T00:07:16.768987,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A27150E0>,°C,False
+2026-03-05T00:07:16.769592,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A2717B60>,°C,False
+2026-03-05T00:07:17.761776,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A2717840>,°C,False
+2026-03-05T00:07:17.762340,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000141A2716850>,,False
+2026-03-05T00:07:18.763018,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A2714AF0>,°C,False
+2026-03-05T00:07:18.763644,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A27161C0>,°C,False
+2026-03-05T00:07:19.761783,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A2716A80>,°C,False
+2026-03-05T00:07:19.762404,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000141A2717250>,,False
+2026-03-05T00:07:20.763318,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A2715C20>,°C,False
+2026-03-05T00:07:20.763950,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A2716CB0>,°C,False
+2026-03-05T00:07:21.765126,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A2714F00>,°C,False
+2026-03-05T00:07:22.760975,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A2715CC0>,°C,False
+2026-03-05T00:07:22.761509,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A2714640>,°C,False
+2026-03-05T00:07:23.757288,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A2715270>,°C,False
+2026-03-05T00:07:24.756974,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A2715130>,°C,False
+2026-03-05T00:07:24.757767,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A2716D50>,°C,False
+2026-03-05T00:07:25.757620,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A2716800>,°C,False
+2026-03-05T00:07:26.769737,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A27141E0>,°C,False
+2026-03-05T00:07:26.770407,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000141A2717A20>,,False
+2026-03-05T00:07:27.783237,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A2715720>,°C,False
+2026-03-05T00:07:28.781703,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A2717A20>,°C,False
+2026-03-05T00:07:28.782346,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A2717520>,°C,False
+2026-03-05T00:07:28.782782,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000141A2717340>,,False
+2026-03-05T00:07:29.778415,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A27166C0>,°C,False
+2026-03-05T00:07:29.779196,"binary-value,0",Heater,<bacpypes3.primitivedata.Any object at 0x00000141A2717C50>,,False
+2026-03-05T00:07:29.780000,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A2716C10>,°C,False
+2026-03-05T00:07:29.780799,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000141A2714EB0>,,False
+2026-03-05T00:07:30.791091,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A2716170>,°C,False
+2026-03-05T00:07:31.789863,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A2715180>,°C,False
+2026-03-05T00:07:31.790599,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A2717B60>,°C,False
+2026-03-05T00:07:31.791008,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000141A2715310>,,False
+2026-03-05T00:07:31.791574,"binary-value,0",Heater,<bacpypes3.primitivedata.Any object at 0x00000141A2714410>,,False
+2026-03-05T00:07:32.800934,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A2717D40>,°C,False
+2026-03-05T00:07:32.801608,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A2717200>,°C,False
+2026-03-05T00:07:32.802030,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000141A2715E50>,,False
+2026-03-05T00:07:33.799015,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A2714F50>,°C,False
+2026-03-05T00:07:34.797214,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A26E7AC0>,°C,False
+2026-03-05T00:07:34.797816,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000141A2714050>,,False
+2026-03-05T00:07:34.798216,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A2715590>,°C,False
+2026-03-05T00:07:35.820901,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A26E5A40>,°C,False
+2026-03-05T00:07:35.821659,"binary-value,0",Heater,<bacpypes3.primitivedata.Any object at 0x00000141A26E6490>,,False
+2026-03-05T00:07:35.822881,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A2717E80>,°C,False
+2026-03-05T00:07:35.823269,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000141A27141E0>,,False
+2026-03-05T00:07:36.812706,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A26E7200>,°C,False
+2026-03-05T00:07:37.805516,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A26E6DF0>,°C,False
+2026-03-05T00:07:37.806232,"binary-value,0",Heater,<bacpypes3.primitivedata.Any object at 0x00000141A26E77F0>,,False
+2026-03-05T00:07:37.808009,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A26E6940>,°C,False
+2026-03-05T00:07:37.808430,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000141A26E7610>,,False
+2026-03-05T00:07:38.824975,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A26E5A40>,°C,False
+2026-03-05T00:07:38.825566,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000141A26E6B70>,,False
+2026-03-05T00:07:38.825969,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A26E5E50>,°C,False
+2026-03-05T00:07:39.818725,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A26E72A0>,°C,False
+2026-03-05T00:07:40.826207,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A26E77A0>,°C,False
+2026-03-05T00:07:40.826765,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000141A26E7ED0>,,False
+2026-03-05T00:07:40.827160,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A26E6F30>,°C,False
+2026-03-05T00:07:41.824230,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A26E79D0>,°C,False
+2026-03-05T00:07:41.824849,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000141A26E7750>,,False
+2026-03-05T00:07:41.825403,"binary-value,0",Heater,<bacpypes3.primitivedata.Any object at 0x00000141A26E6B20>,,False
+2026-03-05T00:07:42.819636,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A26E6620>,°C,False
+2026-03-05T00:07:43.825667,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A26E7840>,°C,False
+2026-03-05T00:07:43.826338,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000141A26E5770>,,False
+2026-03-05T00:07:43.826881,"binary-value,0",Heater,<bacpypes3.primitivedata.Any object at 0x00000141A26E5F90>,,False
+2026-03-05T00:07:44.829948,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A26E7070>,°C,False
+2026-03-05T00:07:44.830569,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000141A26E7980>,,False
+2026-03-05T00:07:46.837428,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000141A26E7660>,,False
+2026-03-05T00:07:46.838118,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A26E7750>,°C,False
+2026-03-05T00:07:46.838629,"binary-value,0",Heater,<bacpypes3.primitivedata.Any object at 0x00000141A26E72F0>,,False
+2026-03-05T00:07:47.854547,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A26E7200>,°C,False
+2026-03-05T00:07:48.850493,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A26E6580>,°C,False
+2026-03-05T00:07:48.851031,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A26E6B70>,°C,False
+2026-03-05T00:07:49.866834,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A26E6EE0>,°C,False
+2026-03-05T00:07:49.867525,"binary-value,0",Heater,<bacpypes3.primitivedata.Any object at 0x00000141A26E7750>,,False
+2026-03-05T00:07:49.869299,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A26E5C20>,°C,False
+2026-03-05T00:07:49.869696,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000141A26E5F40>,,False
+2026-03-05T00:07:50.874172,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A26E74D0>,°C,False
+2026-03-05T00:07:50.874843,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A26E79D0>,°C,False
+2026-03-05T00:07:50.875351,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000141A26E7480>,,False
+2026-03-05T00:07:51.874223,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A26E61C0>,°C,False
+2026-03-05T00:07:52.867916,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000141A26E7200>,,False
+2026-03-05T00:07:52.868581,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A26E5D60>,°C,False
+2026-03-05T00:07:52.869162,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A26E7D40>,°C,False
+2026-03-05T00:07:53.879759,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A26E6A30>,°C,False
+2026-03-05T00:07:53.880311,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A26E6580>,°C,False
+2026-03-05T00:07:53.880685,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000141A26E7700>,,False
+2026-03-05T00:07:53.881130,"binary-value,0",Heater,<bacpypes3.primitivedata.Any object at 0x00000141A26E72F0>,,False
+2026-03-05T00:07:54.877669,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A26E7390>,°C,False
+2026-03-05T00:07:55.880839,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A271C3C0>,°C,False
+2026-03-05T00:07:55.881379,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A271CF00>,°C,False
+2026-03-05T00:07:55.881882,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000141A271E7B0>,,False
+2026-03-05T00:07:55.882307,"binary-value,0",Heater,<bacpypes3.primitivedata.Any object at 0x00000141A271FD90>,,False
+2026-03-05T00:07:56.873765,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A27161C0>,°C,False
+2026-03-05T00:07:56.874348,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A2714CD0>,°C,False
+2026-03-05T00:07:56.874745,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000141A2714230>,,False
+2026-03-05T00:07:58.876844,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A2716B20>,°C,False
+2026-03-05T00:07:58.877442,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000141A27167B0>,,False
+2026-03-05T00:07:58.877845,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A2715630>,°C,False
+2026-03-05T00:07:59.871503,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A27156D0>,°C,False
+2026-03-05T00:07:59.872206,"binary-value,0",Heater,<bacpypes3.primitivedata.Any object at 0x00000141A27167B0>,,False
+2026-03-05T00:07:59.874293,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000141A2717890>,,False
+2026-03-05T00:08:00.873409,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A2717430>,°C,False
+2026-03-05T00:08:01.870163,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A2715310>,°C,False
+2026-03-05T00:08:01.870714,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000141A2716580>,,False
+2026-03-05T00:08:01.871202,"binary-value,0",Heater,<bacpypes3.primitivedata.Any object at 0x00000141A2717890>,,False
+2026-03-05T00:08:01.873510,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A2714CD0>,°C,False
+2026-03-05T00:08:02.872188,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A2717D90>,°C,False
+2026-03-05T00:08:02.872781,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A27143C0>,°C,False
+2026-03-05T00:08:02.873214,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000141A2717890>,,False
+2026-03-05T00:08:04.868464,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A2714B40>,°C,False
+2026-03-05T00:08:04.869000,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000141A27168F0>,,False
+2026-03-05T00:08:04.869386,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A2715950>,°C,False
+2026-03-05T00:08:05.865686,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A27149B0>,°C,False
+2026-03-05T00:08:05.866294,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A2714F50>,°C,False
+2026-03-05T00:08:06.878565,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A27151D0>,°C,False
+2026-03-05T00:08:07.870944,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A2715360>,°C,False
+2026-03-05T00:08:08.890314,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A27172F0>,°C,False
+2026-03-05T00:08:08.890932,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A2717390>,°C,False
+2026-03-05T00:08:09.892581,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A2717070>,°C,False
+2026-03-05T00:08:10.887222,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A2715950>,°C,False
+2026-03-05T00:08:10.888008,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A2715130>,°C,False
+2026-03-05T00:08:10.888452,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000141A2716B20>,,False
+2026-03-05T00:08:11.901722,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A2716DA0>,°C,False
+2026-03-05T00:08:11.902391,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A2717CA0>,°C,False
+2026-03-05T00:08:12.897465,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A27165D0>,°C,False
+2026-03-05T00:08:12.898102,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000141A2715F40>,,False
+2026-03-05T00:08:12.898507,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A2715CC0>,°C,False
+2026-03-05T00:08:13.896461,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A26E6440>,°C,False
+2026-03-05T00:08:13.897168,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A26E7660>,°C,False
+2026-03-05T00:08:14.912483,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A26E6490>,°C,False
+2026-03-05T00:08:15.912837,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A26E70C0>,°C,False
+2026-03-05T00:08:16.927171,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A26E5CC0>,°C,False
+2026-03-05T00:08:17.940853,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000141A26E5DB0>,,False
+2026-03-05T00:08:18.936054,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A26E7C50>,°C,False
+2026-03-05T00:08:18.936679,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A26E7CA0>,°C,False
+2026-03-05T00:08:19.927731,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A26E7200>,°C,False
+2026-03-05T00:08:19.928535,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000141A26E6300>,,False
+2026-03-05T00:08:19.929199,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A26E61C0>,°C,False
+2026-03-05T00:08:20.953766,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A26E5EF0>,°C,False
+2026-03-05T00:08:20.954421,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A26E6FD0>,°C,False
+2026-03-05T00:08:21.952997,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A26E7390>,°C,False
+2026-03-05T00:08:21.953751,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A26E6490>,°C,False
+2026-03-05T00:08:22.951912,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A26E7E80>,°C,False
+2026-03-05T00:08:23.947400,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A26E7980>,°C,False
+2026-03-05T00:08:23.947999,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000141A26E7D90>,,False
+2026-03-05T00:08:24.945396,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A26E7A70>,°C,False
+2026-03-05T00:08:24.946099,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A26E70C0>,°C,False
+2026-03-05T00:08:25.943705,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A26E7F20>,°C,False
+2026-03-05T00:08:25.944891,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000141A26E5FE0>,,False
+2026-03-05T00:08:25.945329,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A26E7CF0>,°C,False
+2026-03-05T00:08:26.942624,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A26E7A70>,°C,False
+2026-03-05T00:08:26.943285,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A26E6530>,°C,False
+2026-03-05T00:08:26.943869,"binary-value,0",Heater,<bacpypes3.primitivedata.Any object at 0x00000141A26E7C50>,,False
+2026-03-05T00:08:26.945477,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000141A26E7980>,,False
+2026-03-05T00:08:27.950611,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A26E5E50>,°C,False
+2026-03-05T00:08:27.951482,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000141A26E6CB0>,,False
+2026-03-05T00:08:27.952260,"binary-value,0",Heater,<bacpypes3.primitivedata.Any object at 0x00000141A26E6300>,,False
+2026-03-05T00:08:27.953484,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A26E60D0>,°C,False
+2026-03-05T00:08:28.944834,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A26E6B20>,°C,False
+2026-03-05T00:08:28.945584,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A26E77A0>,°C,False
+2026-03-05T00:08:28.946082,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000141A26E71B0>,,False
+2026-03-05T00:08:29.954847,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A26E6DF0>,°C,False
+2026-03-05T00:08:29.956040,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A26E7610>,°C,False
+2026-03-05T00:08:30.954579,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A26E6CB0>,°C,False
+2026-03-05T00:08:30.955212,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A26E5720>,°C,False
+2026-03-05T00:08:30.955651,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000141A26E5FE0>,,False
+2026-03-05T00:08:31.951583,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000141A26E60D0>,,False
+2026-03-05T00:08:31.952308,"binary-value,0",Heater,<bacpypes3.primitivedata.Any object at 0x00000141A26E70C0>,,False
+2026-03-05T00:08:31.954150,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A26E6DF0>,°C,False
+2026-03-05T00:08:31.955053,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A26E75C0>,°C,False
+2026-03-05T00:08:32.942941,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A26E71B0>,°C,False
+2026-03-05T00:08:33.960950,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A271C5F0>,°C,False
+2026-03-05T00:08:33.961568,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000141A26E7430>,,False
+2026-03-05T00:08:33.962117,"binary-value,0",Heater,<bacpypes3.primitivedata.Any object at 0x00000141A26E6CB0>,,False
+2026-03-05T00:08:33.963246,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A26E7A20>,°C,False
+2026-03-05T00:08:34.950766,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A2716C60>,°C,False
+2026-03-05T00:08:34.951753,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A27148C0>,°C,False
+2026-03-05T00:08:34.952269,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000141A2714E10>,,False
+2026-03-05T00:08:35.951923,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A2716440>,°C,False
+2026-03-05T00:08:36.944951,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A2717390>,°C,False
+2026-03-05T00:08:36.945670,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A27164E0>,°C,False
+2026-03-05T00:08:36.946423,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000141A2716990>,,False
+2026-03-05T00:08:37.957237,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A27145F0>,°C,False
+2026-03-05T00:08:37.957959,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000141A27154F0>,,False
+2026-03-05T00:08:37.958418,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A27173E0>,°C,False
+2026-03-05T00:08:37.958923,"binary-value,0",Heater,<bacpypes3.primitivedata.Any object at 0x00000141A27161C0>,,False
+2026-03-05T00:08:38.954826,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A27169E0>,°C,False
+2026-03-05T00:08:39.954362,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A2714190>,°C,False
+2026-03-05T00:08:39.955099,"binary-value,0",Heater,<bacpypes3.primitivedata.Any object at 0x00000141A2716490>,,False
+2026-03-05T00:08:39.956904,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A2716710>,°C,False
+2026-03-05T00:08:39.957485,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000141A27157C0>,,False
+2026-03-05T00:08:40.951591,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A2716CB0>,°C,False
+2026-03-05T00:08:40.952224,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000141A27175C0>,,False
+2026-03-05T00:08:41.946905,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A2714C30>,°C,False
+2026-03-05T00:08:42.944400,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A2716800>,°C,False
+2026-03-05T00:08:42.944998,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000141A2716580>,,False
+2026-03-05T00:08:42.945475,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A2717F20>,°C,False
+2026-03-05T00:08:43.954933,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A27169E0>,°C,False
+2026-03-05T00:08:43.955638,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A2716080>,°C,False
+2026-03-05T00:08:43.956071,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000141A2717390>,,False
+2026-03-05T00:08:43.956601,"binary-value,0",Heater,<bacpypes3.primitivedata.Any object at 0x00000141A27165D0>,,False
+2026-03-05T00:08:44.948333,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A2717930>,°C,False
+2026-03-05T00:08:45.945697,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A2716B20>,°C,False
+2026-03-05T00:08:45.946937,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000141A27173E0>,,False
+2026-03-05T00:08:45.947466,"binary-value,0",Heater,<bacpypes3.primitivedata.Any object at 0x00000141A2716F30>,,False
+2026-03-05T00:08:45.948270,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A2716C10>,°C,False
+2026-03-05T00:08:46.953352,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A2715950>,°C,False
+2026-03-05T00:08:46.953932,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A2716CB0>,°C,False
+2026-03-05T00:08:46.954328,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000141A2714820>,,False
+2026-03-05T00:08:48.948301,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A2716AD0>,°C,False
+2026-03-05T00:08:48.948856,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000141A2717D40>,,False
+2026-03-05T00:08:49.947653,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A2715630>,°C,False
+2026-03-05T00:08:49.948366,"binary-value,0",Heater,<bacpypes3.primitivedata.Any object at 0x00000141A27145F0>,,False
+2026-03-05T00:08:49.950045,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000141A2715AE0>,,False
+2026-03-05T00:08:51.946436,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A26E7840>,°C,False
+2026-03-05T00:08:52.955513,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A26E5EF0>,°C,False
+2026-03-05T00:08:52.956128,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A26E6CB0>,°C,False
+2026-03-05T00:08:52.956558,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000141A26E5770>,,False
+2026-03-05T00:08:52.957004,"binary-value,0",Heater,<bacpypes3.primitivedata.Any object at 0x00000141A26E6DF0>,,False
+2026-03-05T00:08:53.953831,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A26E7390>,°C,False
+2026-03-05T00:08:53.954365,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A26E6440>,°C,False
+2026-03-05T00:08:53.954745,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000141A26E7610>,,False
+2026-03-05T00:08:54.953273,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A26E6F30>,°C,False
+2026-03-05T00:08:54.953826,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A26E7AC0>,°C,False
+2026-03-05T00:08:54.955208,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000141A26E7C00>,,False
+2026-03-05T00:08:55.947010,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A26E7480>,°C,False
+2026-03-05T00:08:55.947587,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A26E7B60>,°C,False
+2026-03-05T00:08:55.947965,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000141A26E7E80>,,False
+2026-03-05T00:08:55.948467,"binary-value,0",Heater,<bacpypes3.primitivedata.Any object at 0x00000141A26E68F0>,,False
+2026-03-05T00:08:56.943677,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A26E7D90>,°C,False
+2026-03-05T00:08:57.943815,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A26E6080>,°C,False
+2026-03-05T00:08:58.957603,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A26E59A0>,°C,False
+2026-03-05T00:08:58.958296,"binary-value,0",Heater,<bacpypes3.primitivedata.Any object at 0x00000141A26E7570>,,False
+2026-03-05T00:08:58.960326,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A26E60D0>,°C,False
+2026-03-05T00:08:58.960737,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000141A26E71B0>,,False
+2026-03-05T00:08:59.956351,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A26E62B0>,°C,False
+2026-03-05T00:08:59.957018,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000141A26E70C0>,,False
+2026-03-05T00:08:59.957437,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A26E6F30>,°C,False
+2026-03-05T00:09:00.953373,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A26E5680>,°C,False
+2026-03-05T00:09:01.952569,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A26E7F20>,°C,False
+2026-03-05T00:09:01.953209,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A26E7AC0>,°C,False
+2026-03-05T00:09:01.953623,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000141A26E60D0>,,False
+2026-03-05T00:09:02.946943,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A26E7D90>,°C,False
+2026-03-05T00:09:02.947459,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000141A26E6F30>,,False
+2026-03-05T00:09:02.947956,"binary-value,0",Heater,<bacpypes3.primitivedata.Any object at 0x00000141A26E7CA0>,,False
+2026-03-05T00:09:02.949548,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A26E6580>,°C,False
+2026-03-05T00:09:03.945390,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A26E6F30>,°C,False
+2026-03-05T00:09:04.955759,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A26E7160>,°C,False
+2026-03-05T00:09:04.956346,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000141A26E6300>,,False
+2026-03-05T00:09:04.956868,"binary-value,0",Heater,<bacpypes3.primitivedata.Any object at 0x00000141A26E7110>,,False
+2026-03-05T00:09:04.958304,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A26E6FD0>,°C,False
+2026-03-05T00:09:05.952186,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A26E60D0>,°C,False
+2026-03-05T00:09:05.952799,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000141A26E6B20>,,False
+2026-03-05T00:09:05.953194,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A26E7430>,°C,False
+2026-03-05T00:09:06.954993,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A26E5A40>,°C,False
+2026-03-05T00:09:06.955650,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A26E7610>,°C,False
+2026-03-05T00:09:06.956795,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000141A26E6580>,,False
+2026-03-05T00:09:07.953950,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A26E60D0>,°C,False
+2026-03-05T00:09:07.954530,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A26E79D0>,°C,False
+2026-03-05T00:09:07.954912,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000141A26E7F20>,,False
+2026-03-05T00:09:07.955347,"binary-value,0",Heater,<bacpypes3.primitivedata.Any object at 0x00000141A26E75C0>,,False
+2026-03-05T00:09:08.952454,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A26E79D0>,°C,False
+2026-03-05T00:09:08.953287,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A26E5A40>,°C,False
+2026-03-05T00:09:09.957781,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A2716A30>,°C,False
+2026-03-05T00:09:09.958338,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A2715A40>,°C,False
+2026-03-05T00:09:09.958695,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000141A27177F0>,,False
+2026-03-05T00:09:09.959117,"binary-value,0",Heater,<bacpypes3.primitivedata.Any object at 0x00000141A27154A0>,,False
+2026-03-05T00:09:10.948324,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A2717930>,°C,False
+2026-03-05T00:09:10.948918,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000141A27164E0>,,False
+2026-03-05T00:09:10.949322,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A2714F00>,°C,False
+2026-03-05T00:09:11.948318,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A2716940>,°C,False
+2026-03-05T00:09:12.949418,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A2717160>,°C,False
+2026-03-05T00:09:12.949951,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A27140A0>,°C,False
+2026-03-05T00:09:12.950329,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000141A2716A80>,,False
+2026-03-05T00:09:13.953857,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A2716850>,°C,False
+2026-03-05T00:09:14.946698,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A2716B20>,°C,False
+2026-03-05T00:09:15.951188,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A2716F30>,°C,False
+2026-03-05T00:09:16.943319,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A2715EF0>,°C,False
+2026-03-05T00:09:16.943869,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000141A2717200>,,False
+2026-03-05T00:09:17.955800,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A27149B0>,°C,False
+2026-03-05T00:09:17.956687,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A27154A0>,°C,False
+2026-03-05T00:09:18.952399,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A2717D40>,°C,False
+2026-03-05T00:09:18.953515,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A2717CA0>,°C,False
+2026-03-05T00:09:18.953912,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000141A2715CC0>,,False
+2026-03-05T00:09:19.950514,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A2717D40>,°C,False
+2026-03-05T00:09:19.951104,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A2714820>,°C,False
+2026-03-05T00:09:20.953542,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A2714A00>,°C,False
+2026-03-05T00:09:20.954110,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A2714280>,°C,False
+2026-03-05T00:09:21.964188,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A2717AC0>,°C,False
+2026-03-05T00:09:22.960843,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A2714820>,°C,False
+2026-03-05T00:09:23.964375,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A2714D20>,°C,False
+2026-03-05T00:09:23.964872,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000141A27159F0>,,False
+2026-03-05T00:09:24.964165,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A2714640>,°C,False
+2026-03-05T00:09:24.964894,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A2717F20>,°C,False
+2026-03-05T00:09:25.966461,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A26E7480>,°C,False
+2026-03-05T00:09:25.972435,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A26E7070>,°C,False
+2026-03-05T00:09:25.972972,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000141A2717CA0>,,False
+2026-03-05T00:09:26.962480,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A26E7F20>,°C,False
+2026-03-05T00:09:26.963295,"binary-value,0",Heater,<bacpypes3.primitivedata.Any object at 0x00000141A26E7C00>,,False
+2026-03-05T00:09:26.965432,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A26E5680>,°C,False
+2026-03-05T00:09:26.965845,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000141A26E7200>,,False
+2026-03-05T00:09:27.961143,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A271C1E0>,°C,False
+2026-03-05T00:09:28.970705,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A271FFC0>,°C,False
+2026-03-05T00:09:28.971371,"binary-value,0",Heater,<bacpypes3.primitivedata.Any object at 0x00000141A271DCC0>,,False
+2026-03-05T00:09:28.973371,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000141A271D3B0>,,False
+2026-03-05T00:09:28.973888,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A271C910>,°C,False
+2026-03-05T00:09:29.965562,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A271E210>,°C,False
+2026-03-05T00:09:29.966106,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A271EC60>,°C,False
+2026-03-05T00:09:29.966492,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000141A271C4B0>,,False
+2026-03-05T00:09:30.962547,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A271D950>,°C,False
+2026-03-05T00:09:30.963158,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A271F250>,°C,False
+2026-03-05T00:09:30.963551,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000141A271CB40>,,False
+2026-03-05T00:09:31.962050,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A271CFF0>,°C,False
+2026-03-05T00:09:31.962824,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000141A271F8E0>,,False
+2026-03-05T00:09:31.963568,"binary-value,0",Heater,<bacpypes3.primitivedata.Any object at 0x00000141A271DD10>,,False
+2026-03-05T00:09:31.964035,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A271F750>,°C,False
+2026-03-05T00:09:32.958936,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A271CEB0>,°C,False
+2026-03-05T00:09:32.959666,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A271D400>,°C,False
+2026-03-05T00:09:33.970421,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A271C910>,°C,False
+2026-03-05T00:09:33.970996,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A271F430>,°C,False
+2026-03-05T00:09:34.979747,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A271D180>,°C,False
+2026-03-05T00:09:34.980366,"binary-value,0",Heater,<bacpypes3.primitivedata.Any object at 0x00000141A271F250>,,False
+2026-03-05T00:09:34.982171,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A271D860>,°C,False
+2026-03-05T00:09:34.982546,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000141A271C960>,,False
+2026-03-05T00:09:35.980416,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A271FF70>,°C,False
+2026-03-05T00:09:35.981117,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A271EB70>,°C,False
+2026-03-05T00:09:35.981625,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000141A271F430>,,False
+2026-03-05T00:09:36.985428,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A271EF80>,°C,False
+2026-03-05T00:09:37.975050,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A271DFE0>,°C,False
+2026-03-05T00:09:37.975911,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000141A271EE90>,,False
+2026-03-05T00:09:37.976339,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A271C870>,°C,False
+2026-03-05T00:09:38.986118,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A271ED00>,°C,False
+2026-03-05T00:09:38.986799,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A271E300>,°C,False
+2026-03-05T00:09:38.987307,"binary-value,0",Heater,<bacpypes3.primitivedata.Any object at 0x00000141A271FE30>,,False
+2026-03-05T00:09:38.988533,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000141A271C410>,,False
+2026-03-05T00:09:39.996561,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A271FDE0>,°C,False
+2026-03-05T00:09:40.995253,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A271FCF0>,°C,False
+2026-03-05T00:09:41.993645,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000141A271D3B0>,,False
+2026-03-05T00:09:41.994301,"binary-value,0",Heater,<bacpypes3.primitivedata.Any object at 0x00000141A271C3C0>,,False
+2026-03-05T00:09:41.996044,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A271EE40>,°C,False
+2026-03-05T00:09:42.994247,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A271FC50>,°C,False
+2026-03-05T00:09:42.994921,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000141A271ED00>,,False
+2026-03-05T00:09:43.992175,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A271FC50>,°C,False
+2026-03-05T00:09:43.992800,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000141A271EE40>,,False
+2026-03-05T00:09:45.002747,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A271FC50>,°C,False
+2026-03-05T00:09:45.003480,"binary-value,0",Heater,<bacpypes3.primitivedata.Any object at 0x00000141A271E8F0>,,False
+2026-03-05T00:09:45.004461,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A271E440>,°C,False
+2026-03-05T00:09:45.006110,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000141A271C280>,,False
+2026-03-05T00:09:46.003792,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A26E59A0>,°C,False
+2026-03-05T00:09:47.003399,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A26E7AC0>,°C,False
+2026-03-05T00:09:47.999196,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A26E59A0>,°C,False
+2026-03-05T00:09:47.999749,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000141A26E71B0>,,False
+2026-03-05T00:09:48.000265,"binary-value,0",Heater,<bacpypes3.primitivedata.Any object at 0x00000141A26E7840>,,False
+2026-03-05T00:09:48.001791,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A26E6E90>,°C,False
+2026-03-05T00:09:49.001570,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A26E70C0>,°C,False
+2026-03-05T00:09:49.002273,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A26E7750>,°C,False
+2026-03-05T00:09:49.002823,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000141A26E7C00>,,False
+2026-03-05T00:09:49.998688,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A26E75C0>,°C,False
+2026-03-05T00:09:51.003210,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A26E5860>,°C,False
+2026-03-05T00:09:51.003906,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A26E7840>,°C,False
+2026-03-05T00:09:51.004320,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000141A26E5A40>,,False
+2026-03-05T00:09:51.999131,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A26E6E90>,°C,False
+2026-03-05T00:09:51.999841,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000141A26E7200>,,False
+2026-03-05T00:09:52.000406,"binary-value,0",Heater,<bacpypes3.primitivedata.Any object at 0x00000141A26E7700>,,False
+2026-03-05T00:09:52.002129,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A26E6940>,°C,False
+2026-03-05T00:09:53.003770,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A26E7C00>,°C,False
+2026-03-05T00:09:53.004378,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A26E60D0>,°C,False
+2026-03-05T00:09:53.996210,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A26E76B0>,°C,False
+2026-03-05T00:09:53.996901,"binary-value,0",Heater,<bacpypes3.primitivedata.Any object at 0x00000141A26E5CC0>,,False
+2026-03-05T00:09:53.998180,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000141A26E6B70>,,False
+2026-03-05T00:09:55.008019,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A26E6DF0>,°C,False
+2026-03-05T00:09:55.008536,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A26E75C0>,°C,False
+2026-03-05T00:09:55.008913,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000141A26E7570>,,False

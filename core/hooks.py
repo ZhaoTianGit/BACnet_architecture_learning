@@ -82,10 +82,12 @@ class HookManager:
         "on_pass",        # fires when the entire test sequence passes
         "on_fail",        # fires when any step raises an exception
         "on_restore",     # fires after Out-Of-Service is restored
-        # ── NEW: polling slots ──────────────────
-        "on_poll",      # fires every read cycle
-        "on_change",    # fires when value changes
-        "on_alarm",     # fires when threshold crossed
+        "on_poll",        # fires every read cycle
+        "on_change",      # fires when value changes
+        "on_alarm",       # fires when threshold crossed
+        "on_cov",          # every COV notification
+        "on_cov_change",   # value changed from previous
+        "on_cov_alarm",    # threshold crossed
     }
 
     def __init__(self):
