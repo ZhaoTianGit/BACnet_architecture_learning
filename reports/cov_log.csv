@@ -388,3 +388,421 @@ timestamp,object_id,label,value,unit,in_alarm
 2026-03-05T00:09:55.008019,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000141A26E6DF0>,°C,False
 2026-03-05T00:09:55.008536,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000141A26E75C0>,°C,False
 2026-03-05T00:09:55.008913,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000141A26E7570>,,False
+2026-03-05T00:24:23.950785,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x0000025020FBEAD0>,°C,False
+2026-03-05T00:24:23.951122,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x000002502124C950>,°C,False
+2026-03-05T00:24:23.951422,"analog-input,2",T Outdoor,<bacpypes3.primitivedata.Any object at 0x0000025021237F50>,°C,False
+2026-03-05T00:24:23.953594,"analog-value,3",Setpoint 3,<bacpypes3.primitivedata.Any object at 0x0000025021287110>,°C,False
+2026-03-05T00:24:23.954521,"analog-value,1",Setpoint 1,<bacpypes3.primitivedata.Any object at 0x0000025021286DF0>,°C,False
+2026-03-05T00:24:23.954838,"analog-value,0",T Set,<bacpypes3.primitivedata.Any object at 0x00000250212872A0>,°C,False
+2026-03-05T00:24:23.955748,"analog-value,2",Setpoint 2,<bacpypes3.primitivedata.Any object at 0x0000025021286080>,°C,False
+2026-03-05T00:24:23.956788,"binary-value,0",Heater,<bacpypes3.primitivedata.Any object at 0x0000025021285F40>,,False
+2026-03-05T00:24:23.957741,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000250212859F0>,,False
+2026-03-05T00:24:23.958101,"multi-state-value,0",State,<bacpypes3.primitivedata.Any object at 0x0000025021286990>,,False
+2026-03-05T00:24:23.959137,"binary-value,1",Chiller,<bacpypes3.primitivedata.Any object at 0x00000250212857C0>,,False
+2026-03-05T00:24:24.699158,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000250212BC7D0>,°C,False
+2026-03-05T00:24:24.699791,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000250212BC820>,°C,False
+2026-03-05T00:24:24.700234,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000250212BC550>,,False
+2026-03-05T00:24:24.700738,"binary-value,0",Heater,<bacpypes3.primitivedata.Any object at 0x00000250212BC500>,,False
+2026-03-05T00:24:25.694473,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000250212BC6E0>,°C,False
+2026-03-05T00:24:25.695051,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000250212BEE90>,°C,False
+2026-03-05T00:24:25.695447,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000250212BEC10>,,False
+2026-03-05T00:24:26.707535,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000250212BC7D0>,°C,False
+2026-03-05T00:24:27.706054,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000250212BCAA0>,°C,False
+2026-03-05T00:24:27.706655,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000250212BF520>,°C,False
+2026-03-05T00:24:27.707070,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000250212BFAC0>,,False
+2026-03-05T00:24:28.703976,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000250212BC190>,°C,False
+2026-03-05T00:24:28.704509,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000250212BE5D0>,,False
+2026-03-05T00:24:28.705077,"binary-value,0",Heater,<bacpypes3.primitivedata.Any object at 0x00000250212BE1C0>,,False
+2026-03-05T00:24:28.706839,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000250212BF520>,°C,False
+2026-03-05T00:24:29.702985,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000250212BC690>,°C,False
+2026-03-05T00:24:29.703542,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000250212BC3C0>,°C,False
+2026-03-05T00:24:30.700541,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000250212BC4B0>,°C,False
+2026-03-05T00:24:30.701153,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000250212BEB20>,,False
+2026-03-05T00:24:30.701670,"binary-value,0",Heater,<bacpypes3.primitivedata.Any object at 0x00000250212BD810>,,False
+2026-03-05T00:24:30.703195,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000250212BC1E0>,°C,False
+2026-03-05T00:24:31.707527,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x0000025021286A30>,,False
+2026-03-05T00:24:31.708109,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000250212BF8E0>,°C,False
+2026-03-05T00:24:32.704228,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x0000025021286A80>,°C,False
+2026-03-05T00:24:33.707421,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x0000025021286940>,°C,False
+2026-03-05T00:24:33.708243,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x0000025021287160>,°C,False
+2026-03-05T00:24:33.708732,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x0000025021285FE0>,,False
+2026-03-05T00:24:34.694080,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x0000025021287C00>,°C,False
+2026-03-05T00:24:34.694696,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x0000025021287840>,°C,False
+2026-03-05T00:24:34.695243,"binary-value,0",Heater,<bacpypes3.primitivedata.Any object at 0x00000250212872F0>,,False
+2026-03-05T00:24:34.696636,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000250212862B0>,,False
+2026-03-05T00:24:35.704165,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x0000025021287570>,°C,False
+2026-03-05T00:24:35.705385,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x0000025021285770>,°C,False
+2026-03-05T00:24:36.700119,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x0000025021286490>,°C,False
+2026-03-05T00:24:36.701349,"binary-value,0",Heater,<bacpypes3.primitivedata.Any object at 0x0000025021287160>,,False
+2026-03-05T00:24:36.702880,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x0000025021285FE0>,,False
+2026-03-05T00:24:37.706212,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000250212865D0>,°C,False
+2026-03-05T00:24:37.707601,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x0000025021285B30>,,False
+2026-03-05T00:24:38.694490,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000250212862B0>,°C,False
+2026-03-05T00:24:39.699683,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000250212864E0>,°C,False
+2026-03-05T00:24:39.700293,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x0000025021286DF0>,°C,False
+2026-03-05T00:24:39.700698,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x0000025021287840>,,False
+2026-03-05T00:24:39.701174,"binary-value,0",Heater,<bacpypes3.primitivedata.Any object at 0x0000025021287110>,,False
+2026-03-05T00:24:40.696192,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000250212874D0>,°C,False
+2026-03-05T00:24:40.696741,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x0000025021286490>,°C,False
+2026-03-05T00:24:41.695379,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x0000025021286940>,°C,False
+2026-03-05T00:24:41.696071,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000250212868A0>,°C,False
+2026-03-05T00:24:42.693879,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x0000025021287340>,°C,False
+2026-03-05T00:24:42.694508,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x0000025021286FD0>,,False
+2026-03-05T00:24:42.695007,"binary-value,0",Heater,<bacpypes3.primitivedata.Any object at 0x00000250212858B0>,,False
+2026-03-05T00:24:42.696957,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x0000025021285EA0>,°C,False
+2026-03-05T00:24:43.707673,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000250212866C0>,°C,False
+2026-03-05T00:24:43.708343,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000250212868A0>,,False
+2026-03-05T00:24:43.708793,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x0000025021285B80>,°C,False
+2026-03-05T00:24:44.713632,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x0000025021287D40>,°C,False
+2026-03-05T00:24:44.714444,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x0000025021287570>,°C,False
+2026-03-05T00:24:44.714905,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x0000025021286A30>,,False
+2026-03-05T00:24:45.708101,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x0000025021287930>,°C,False
+2026-03-05T00:24:45.708738,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000250212858B0>,°C,False
+2026-03-05T00:24:45.709317,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x0000025021286580>,,False
+2026-03-05T00:24:45.709838,"binary-value,0",Heater,<bacpypes3.primitivedata.Any object at 0x0000025021285B80>,,False
+2026-03-05T00:24:46.718489,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000250212864E0>,°C,False
+2026-03-05T00:24:46.719077,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x0000025021287480>,°C,False
+2026-03-05T00:24:47.733188,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x0000025021285F40>,°C,False
+2026-03-05T00:24:47.733778,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x0000025021287840>,°C,False
+2026-03-05T00:24:47.974289,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x0000025021287250>,°C,False
+2026-03-05T00:24:47.975050,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x0000025021285EA0>,°C,False
+2026-03-05T00:24:47.975651,"analog-input,2",T Outdoor,<bacpypes3.primitivedata.Any object at 0x0000025021286F30>,°C,False
+2026-03-05T00:24:47.976252,"analog-value,0",T Set,<bacpypes3.primitivedata.Any object at 0x0000025021286940>,°C,False
+2026-03-05T00:24:47.978931,"analog-value,1",Setpoint 1,<bacpypes3.primitivedata.Any object at 0x00000250212871B0>,°C,False
+2026-03-05T00:24:47.979546,"analog-value,3",Setpoint 3,<bacpypes3.primitivedata.Any object at 0x0000025021287CA0>,°C,False
+2026-03-05T00:24:47.980067,"analog-value,2",Setpoint 2,<bacpypes3.primitivedata.Any object at 0x00000250212868A0>,°C,False
+2026-03-05T00:24:47.982328,"binary-value,0",Heater,<bacpypes3.primitivedata.Any object at 0x0000025021286C60>,,False
+2026-03-05T00:24:47.983449,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x0000025021287D90>,,False
+2026-03-05T00:24:47.986055,"multi-state-value,0",State,<bacpypes3.primitivedata.Any object at 0x0000025021287160>,,False
+2026-03-05T00:24:47.986858,"binary-value,1",Chiller,<bacpypes3.primitivedata.Any object at 0x0000025021287480>,,False
+2026-03-05T00:24:48.749455,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000250212879D0>,°C,False
+2026-03-05T00:24:48.750168,"binary-value,0",Heater,<bacpypes3.primitivedata.Any object at 0x0000025021287520>,,False
+2026-03-05T00:24:48.752705,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x0000025021285C20>,,False
+2026-03-05T00:24:48.753226,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x0000025021287160>,°C,False
+2026-03-05T00:24:49.748580,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x0000025021286490>,,False
+2026-03-05T00:24:49.749309,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x0000025021287F20>,°C,False
+2026-03-05T00:24:50.756097,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000250212BD9A0>,°C,False
+2026-03-05T00:24:51.750151,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x0000025021285F40>,°C,False
+2026-03-05T00:24:51.751035,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x0000025021287E80>,,False
+2026-03-05T00:24:51.751694,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000250212873E0>,°C,False
+2026-03-05T00:24:52.753120,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x0000025021285F40>,°C,False
+2026-03-05T00:24:52.753673,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x0000025021286DF0>,°C,False
+2026-03-05T00:24:53.748627,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000250212873E0>,°C,False
+2026-03-05T00:24:54.753345,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x0000025021286080>,°C,False
+2026-03-05T00:24:55.747458,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x0000025021287E80>,°C,False
+2026-03-05T00:24:55.752952,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x0000025021286800>,°C,False
+2026-03-05T00:24:56.742101,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x0000025021285EA0>,°C,False
+2026-03-05T00:24:57.746057,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000250212859F0>,°C,False
+2026-03-05T00:24:57.746632,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x0000025021286C60>,°C,False
+2026-03-05T00:24:58.746679,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x0000025021287B60>,°C,False
+2026-03-05T00:24:58.747246,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000250212864E0>,,False
+2026-03-05T00:24:59.743934,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x0000025021285FE0>,°C,False
+2026-03-05T00:24:59.744490,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000250212873E0>,°C,False
+2026-03-05T00:25:00.739985,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x0000025021287750>,°C,False
+2026-03-05T00:25:00.740606,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x0000025021285950>,°C,False
+2026-03-05T00:25:00.741009,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x0000025021287200>,,False
+2026-03-05T00:25:01.757800,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x0000025021286C60>,°C,False
+2026-03-05T00:25:01.758448,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x0000025021285FE0>,°C,False
+2026-03-05T00:25:02.763044,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x0000025021286800>,°C,False
+2026-03-05T00:25:03.769038,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x0000025021286A30>,°C,False
+2026-03-05T00:25:03.769929,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x0000025021286EE0>,°C,False
+2026-03-05T00:25:04.760768,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000250212868A0>,°C,False
+2026-03-05T00:25:05.763472,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x0000025021287F20>,,False
+2026-03-05T00:25:05.764105,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x0000025021287250>,°C,False
+2026-03-05T00:25:06.762264,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x0000025021287DE0>,°C,False
+2026-03-05T00:25:07.762051,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000250212B7A70>,,False
+2026-03-05T00:25:07.762633,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000250212B4640>,°C,False
+2026-03-05T00:25:08.785472,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000250212B6620>,°C,False
+2026-03-05T00:25:09.800070,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000250212B7AC0>,°C,False
+2026-03-05T00:25:10.815718,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000250212B6670>,°C,False
+2026-03-05T00:25:11.811488,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000250212B7020>,,False
+2026-03-05T00:25:12.004543,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000250212BC9B0>,°C,False
+2026-03-05T00:25:12.006024,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000250212BCCD0>,°C,False
+2026-03-05T00:25:12.007452,"analog-input,2",T Outdoor,<bacpypes3.primitivedata.Any object at 0x00000250212BDA40>,°C,False
+2026-03-05T00:25:12.008799,"analog-value,0",T Set,<bacpypes3.primitivedata.Any object at 0x00000250212BF610>,°C,False
+2026-03-05T00:25:12.011034,"analog-value,2",Setpoint 2,<bacpypes3.primitivedata.Any object at 0x0000025021287340>,°C,False
+2026-03-05T00:25:12.012452,"analog-value,1",Setpoint 1,<bacpypes3.primitivedata.Any object at 0x0000025021286EE0>,°C,False
+2026-03-05T00:25:12.013045,"analog-value,3",Setpoint 3,<bacpypes3.primitivedata.Any object at 0x0000025021286BC0>,°C,False
+2026-03-05T00:25:12.014428,"binary-value,0",Heater,<bacpypes3.primitivedata.Any object at 0x00000250212BC050>,,False
+2026-03-05T00:25:12.016586,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000250212857C0>,,False
+2026-03-05T00:25:12.018186,"multi-state-value,0",State,<bacpypes3.primitivedata.Any object at 0x0000025021285F40>,,False
+2026-03-05T00:25:12.019049,"binary-value,1",Chiller,<bacpypes3.primitivedata.Any object at 0x0000025021287D40>,,False
+2026-03-05T00:25:12.813728,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000250212B6080>,°C,False
+2026-03-05T00:25:12.814412,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000250212B5EF0>,°C,False
+2026-03-05T00:25:13.811375,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000250212B5E50>,°C,False
+2026-03-05T00:25:13.811989,"multi-state-value,1",Vent Level,<bacpypes3.primitivedata.Any object at 0x00000250212B4410>,,False
+2026-03-05T00:25:13.812416,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000250212B73E0>,°C,False
+2026-03-05T00:25:14.809365,"analog-input,1",T Water,<bacpypes3.primitivedata.Any object at 0x00000250212B51D0>,°C,False
+2026-03-05T00:25:14.809997,"analog-input,0",T Indoor,<bacpypes3.primitivedata.Any object at 0x00000250212B7160>,°C,False
+2026-03-05T00:37:12.855659,"analog-input,0",T Indoor,,°C,False
+2026-03-05T00:37:12.856765,"analog-input,1",T Water,,°C,False
+2026-03-05T00:37:12.858587,"analog-input,2",T Outdoor,,°C,False
+2026-03-05T00:37:12.860264,"analog-value,0",T Set,,°C,False
+2026-03-05T00:37:12.861909,"analog-value,1",Setpoint 1,,°C,False
+2026-03-05T00:37:12.864179,"analog-value,3",Setpoint 3,,°C,False
+2026-03-05T00:37:12.866407,"binary-value,0",Heater,,,False
+2026-03-05T00:37:12.867582,"binary-value,1",Chiller,,,False
+2026-03-05T00:37:12.869692,"multi-state-value,0",State,,,False
+2026-03-05T00:37:12.871525,"multi-state-value,1",Vent Level,,,False
+2026-03-05T00:37:12.873410,"analog-value,2",Setpoint 2,,°C,False
+2026-03-05T00:37:13.524965,"analog-input,1",T Water,,°C,False
+2026-03-05T00:37:13.526281,"analog-input,0",T Indoor,,°C,False
+2026-03-05T00:37:14.514340,"analog-input,1",T Water,,°C,False
+2026-03-05T00:37:14.516011,"analog-input,0",T Indoor,,°C,False
+2026-03-05T00:37:15.512541,"multi-state-value,1",Vent Level,,,False
+2026-03-05T00:37:16.516059,"analog-input,0",T Indoor,,°C,False
+2026-03-05T00:37:16.517429,"analog-input,1",T Water,,°C,False
+2026-03-05T00:37:17.519512,"analog-input,1",T Water,,°C,False
+2026-03-05T00:37:17.521047,"analog-input,0",T Indoor,,°C,False
+2026-03-05T00:37:17.522315,"multi-state-value,1",Vent Level,,,False
+2026-03-05T00:37:18.538698,"analog-input,1",T Water,,°C,False
+2026-03-05T00:37:18.540009,"analog-input,0",T Indoor,,°C,False
+2026-03-05T00:37:19.551169,"analog-input,1",T Water,,°C,False
+2026-03-05T00:37:20.563145,"analog-input,1",T Water,,°C,False
+2026-03-05T00:37:20.564421,"analog-input,0",T Indoor,,°C,False
+2026-03-05T00:37:21.564692,"analog-input,1",T Water,,°C,False
+2026-03-05T00:37:22.556921,"analog-input,1",T Water,,°C,False
+2026-03-05T00:37:22.558218,"analog-input,0",T Indoor,,°C,False
+2026-03-05T00:37:23.557177,"analog-input,1",T Water,,°C,False
+2026-03-05T00:37:23.558600,"multi-state-value,1",Vent Level,,,False
+2026-03-05T00:39:10.329738,"analog-input,0",T Indoor,,°C,False
+2026-03-05T00:39:10.331448,"analog-input,1",T Water,,°C,False
+2026-03-05T00:39:10.333837,"analog-input,2",T Outdoor,,°C,False
+2026-03-05T00:39:10.337418,"analog-value,0",T Set,,°C,False
+2026-03-05T00:39:10.339605,"analog-value,1",Setpoint 1,,°C,False
+2026-03-05T00:39:10.341806,"analog-value,2",Setpoint 2,,°C,False
+2026-03-05T00:39:10.345177,"binary-value,0",Heater,,,False
+2026-03-05T00:39:10.347036,"binary-value,1",Chiller,,,False
+2026-03-05T00:39:10.348189,"analog-value,3",Setpoint 3,,°C,False
+2026-03-05T00:39:10.350547,"multi-state-value,0",State,,,False
+2026-03-05T00:39:10.352321,"multi-state-value,1",Vent Level,,,False
+2026-03-05T00:39:10.816395,"analog-input,0",T Indoor,,°C,False
+2026-03-05T00:39:10.817841,"binary-value,0",Heater,,,False
+2026-03-05T00:39:10.818989,"multi-state-value,1",Vent Level,,,False
+2026-03-05T00:39:11.814961,"analog-input,0",T Indoor,,°C,False
+2026-03-05T00:39:11.816363,"multi-state-value,1",Vent Level,,,False
+2026-03-05T00:39:12.809073,"analog-input,1",T Water,,°C,False
+2026-03-05T00:39:12.810693,"analog-input,0",T Indoor,,°C,False
+2026-03-05T00:42:37.183457,"analog-input,0",T Indoor,20.399999618530273,°C,False
+2026-03-05T00:42:37.184484,"analog-input,2",T Outdoor,12.0,°C,False
+2026-03-05T00:42:37.184813,"analog-input,1",T Water,36.900001525878906,°C,False
+2026-03-05T00:42:37.185812,"analog-value,0",T Set,21.0,°C,False
+2026-03-05T00:42:37.186824,"analog-value,1",Setpoint 1,21.0,°C,False
+2026-03-05T00:42:37.187785,"analog-value,3",Setpoint 3,17.0,°C,False
+2026-03-05T00:42:37.188941,"binary-value,1",Chiller,0,,False
+2026-03-05T00:42:37.190436,"multi-state-value,1",Vent Level,4,,False
+2026-03-05T00:42:37.190817,"multi-state-value,0",State,2,,False
+2026-03-05T00:42:37.191764,"analog-value,2",Setpoint 2,19.0,°C,False
+2026-03-05T00:42:37.193025,"binary-value,0",Heater,1,,False
+2026-03-05T00:42:37.493056,"analog-input,1",T Water,37.400001525878906,°C,False
+2026-03-05T00:42:37.494536,"multi-state-value,1",Vent Level,3,,False
+2026-03-05T00:42:37.495550,"analog-input,0",T Indoor,20.700000762939453,°C,False
+2026-03-05T00:42:38.513966,"analog-input,1",T Water,37.70000076293945,°C,False
+2026-03-05T00:42:38.515320,"analog-input,0",T Indoor,21.200000762939453,°C,False
+2026-03-05T00:42:38.516224,"multi-state-value,1",Vent Level,1,,False
+2026-03-05T00:42:38.517171,"binary-value,0",Heater,0,,False
+2026-03-05T00:42:39.519761,"analog-input,0",T Indoor,21.399999618530273,°C,False
+2026-03-05T00:42:39.520989,"analog-input,1",T Water,38.20000076293945,°C,False
+2026-03-05T00:42:40.510345,"analog-input,1",T Water,38.5,°C,False
+2026-03-05T00:42:40.511948,"analog-input,0",T Indoor,21.100000381469727,°C,False
+2026-03-05T00:42:41.510289,"analog-input,1",T Water,38.70000076293945,°C,False
+2026-03-05T00:42:41.511387,"multi-state-value,1",Vent Level,2,,False
+2026-03-05T00:42:41.512453,"binary-value,0",Heater,1,,False
+2026-03-05T00:42:41.513359,"analog-input,0",T Indoor,20.799999237060547,°C,False
+2026-03-05T00:42:42.509983,"analog-input,1",T Water,38.900001525878906,°C,False
+2026-03-05T00:42:42.511262,"multi-state-value,1",Vent Level,3,,False
+2026-03-05T00:42:42.512216,"analog-input,0",T Indoor,20.600000381469727,°C,False
+2026-03-05T00:42:43.506521,"analog-input,1",T Water,39.099998474121094,°C,False
+2026-03-05T00:42:44.518514,"analog-input,1",T Water,39.20000076293945,°C,False
+2026-03-05T00:42:44.519920,"analog-input,0",T Indoor,20.899999618530273,°C,False
+2026-03-05T00:42:44.521111,"multi-state-value,1",Vent Level,2,,False
+2026-03-05T00:42:45.520386,"analog-input,0",T Indoor,21.200000762939453,°C,False
+2026-03-05T00:42:45.521726,"multi-state-value,1",Vent Level,1,,False
+2026-03-05T00:42:45.522884,"binary-value,0",Heater,0,,False
+2026-03-05T00:42:45.523961,"analog-input,1",T Water,39.29999923706055,°C,False
+2026-03-05T00:42:46.536496,"analog-input,1",T Water,39.400001525878906,°C,False
+2026-03-05T00:42:47.564771,"analog-input,0",T Indoor,20.899999618530273,°C,False
+2026-03-05T00:42:47.566874,"binary-value,0",Heater,1,,False
+2026-03-05T00:42:47.568815,"multi-state-value,1",Vent Level,2,,False
+2026-03-05T00:42:47.570973,"analog-input,1",T Water,39.70000076293945,°C,False
+2026-03-05T00:42:48.561418,"analog-input,1",T Water,39.79999923706055,°C,False
+2026-03-05T00:42:48.562641,"analog-input,0",T Indoor,20.600000381469727,°C,False
+2026-03-05T00:42:48.564454,"multi-state-value,1",Vent Level,3,,False
+2026-03-05T00:42:49.577774,"analog-input,1",T Water,39.900001525878906,°C,False
+2026-03-05T00:42:50.579820,"analog-input,0",T Indoor,21.0,°C,False
+2026-03-05T00:42:50.581246,"multi-state-value,1",Vent Level,1,,False
+2026-03-05T00:42:50.582365,"binary-value,0",Heater,0,,False
+2026-03-05T00:42:51.577455,"analog-input,0",T Indoor,21.299999237060547,°C,False
+2026-03-05T00:42:52.575656,"analog-input,0",T Indoor,21.0,°C,False
+2026-03-05T00:42:53.577038,"multi-state-value,1",Vent Level,2,,False
+2026-03-05T00:42:53.578300,"analog-input,0",T Indoor,20.700000762939453,°C,False
+2026-03-05T00:42:53.579402,"binary-value,0",Heater,1,,False
+2026-03-05T00:42:54.575143,"analog-input,0",T Indoor,20.5,°C,False
+2026-03-05T00:42:54.576592,"multi-state-value,1",Vent Level,3,,False
+2026-03-05T00:42:55.573288,"analog-input,1",T Water,39.79999923706055,°C,False
+2026-03-05T00:42:56.570272,"analog-input,1",T Water,39.599998474121094,°C,False
+2026-03-05T00:42:56.571502,"analog-input,0",T Indoor,20.799999237060547,°C,False
+2026-03-05T00:42:56.572498,"multi-state-value,1",Vent Level,2,,False
+2026-03-05T00:42:57.567142,"analog-input,0",T Indoor,21.100000381469727,°C,False
+2026-03-05T00:42:57.568302,"multi-state-value,1",Vent Level,1,,False
+2026-03-05T00:42:57.569270,"binary-value,0",Heater,0,,False
+2026-03-05T00:42:59.579147,"analog-input,1",T Water,39.5,°C,False
+2026-03-05T00:42:59.580505,"analog-input,0",T Indoor,20.899999618530273,°C,False
+2026-03-05T00:42:59.581890,"multi-state-value,1",Vent Level,2,,False
+2026-03-05T00:42:59.583014,"binary-value,0",Heater,1,,False
+2026-03-05T00:43:00.577596,"analog-input,1",T Water,39.20000076293945,°C,False
+2026-03-05T00:43:00.579197,"analog-input,0",T Indoor,20.600000381469727,°C,False
+2026-03-05T00:43:00.580849,"multi-state-value,1",Vent Level,3,,False
+2026-03-05T00:43:01.216508,"analog-input,0",T Indoor,20.600000381469727,°C,False
+2026-03-05T00:43:01.223348,"analog-input,1",T Water,39.20000076293945,°C,False
+2026-03-05T00:43:01.224169,"analog-value,0",T Set,21.0,°C,False
+2026-03-05T00:43:01.226201,"analog-input,2",T Outdoor,12.0,°C,False
+2026-03-05T00:43:01.226825,"analog-value,1",Setpoint 1,21.0,°C,False
+2026-03-05T00:43:01.227638,"analog-value,2",Setpoint 2,19.0,°C,False
+2026-03-05T00:43:01.228189,"analog-value,3",Setpoint 3,17.0,°C,False
+2026-03-05T00:43:01.229790,"binary-value,0",Heater,1,,False
+2026-03-05T00:43:01.230497,"binary-value,1",Chiller,0,,False
+2026-03-05T00:43:01.232153,"multi-state-value,0",State,2,,False
+2026-03-05T00:43:01.234032,"multi-state-value,1",Vent Level,3,,False
+2026-03-05T00:43:01.570922,"analog-input,1",T Water,39.099998474121094,°C,False
+2026-03-05T00:43:02.571982,"analog-input,0",T Indoor,20.899999618530273,°C,False
+2026-03-05T00:43:02.573267,"multi-state-value,1",Vent Level,2,,False
+2026-03-05T00:43:02.574323,"analog-input,1",T Water,38.70000076293945,°C,False
+2026-03-05T00:43:03.572977,"analog-input,1",T Water,38.5,°C,False
+2026-03-05T00:43:03.574151,"analog-input,0",T Indoor,21.200000762939453,°C,False
+2026-03-05T00:43:03.575218,"multi-state-value,1",Vent Level,1,,False
+2026-03-05T00:43:03.576185,"binary-value,0",Heater,0,,False
+2026-03-05T00:43:04.572391,"analog-input,1",T Water,38.20000076293945,°C,False
+2026-03-05T00:43:05.571542,"multi-state-value,1",Vent Level,2,,False
+2026-03-05T00:43:05.572662,"analog-input,0",T Indoor,20.899999618530273,°C,False
+2026-03-05T00:43:05.573677,"binary-value,0",Heater,1,,False
+2026-03-05T00:43:06.569491,"analog-input,1",T Water,37.70000076293945,°C,False
+2026-03-05T00:43:06.577837,"analog-input,0",T Indoor,20.600000381469727,°C,False
+2026-03-05T00:43:06.578920,"multi-state-value,1",Vent Level,3,,False
+2026-03-05T00:43:07.585391,"analog-input,1",T Water,37.099998474121094,°C,False
+2026-03-05T00:43:08.601295,"analog-input,1",T Water,36.79999923706055,°C,False
+2026-03-05T00:43:08.603186,"multi-state-value,1",Vent Level,2,,False
+2026-03-05T00:43:08.604101,"analog-input,0",T Indoor,20.899999618530273,°C,False
+2026-03-05T00:43:09.627611,"analog-input,1",T Water,36.70000076293945,°C,False
+2026-03-05T00:43:09.642315,"binary-value,0",Heater,0,,False
+2026-03-05T00:43:09.643628,"analog-input,0",T Indoor,21.100000381469727,°C,False
+2026-03-05T00:43:09.644763,"multi-state-value,1",Vent Level,1,,False
+2026-03-05T00:43:10.622834,"analog-input,1",T Water,36.5,°C,False
+2026-03-05T00:43:10.624346,"analog-input,0",T Indoor,21.0,°C,False
+2026-03-05T00:43:11.621143,"analog-input,1",T Water,36.20000076293945,°C,False
+2026-03-05T00:43:11.622345,"binary-value,0",Heater,1,,False
+2026-03-05T00:43:11.623434,"analog-input,0",T Indoor,20.799999237060547,°C,False
+2026-03-05T00:43:11.624798,"multi-state-value,1",Vent Level,2,,False
+2026-03-05T00:43:12.621173,"analog-input,0",T Indoor,20.5,°C,False
+2026-03-05T00:43:12.622263,"multi-state-value,1",Vent Level,3,,False
+2026-03-05T00:43:13.623344,"analog-input,1",T Water,35.79999923706055,°C,False
+2026-03-05T00:43:14.624285,"analog-input,1",T Water,35.599998474121094,°C,False
+2026-03-05T00:43:14.625611,"analog-input,0",T Indoor,20.700000762939453,°C,False
+2026-03-05T00:43:15.617724,"analog-input,1",T Water,35.400001525878906,°C,False
+2026-03-05T00:43:15.619552,"multi-state-value,1",Vent Level,2,,False
+2026-03-05T00:43:15.620646,"analog-input,0",T Indoor,20.899999618530273,°C,False
+2026-03-05T00:43:16.618538,"analog-input,1",T Water,35.29999923706055,°C,False
+2026-03-05T00:43:16.619608,"multi-state-value,1",Vent Level,1,,False
+2026-03-05T00:43:16.620881,"binary-value,0",Heater,0,,False
+2026-03-05T00:43:16.622472,"analog-input,0",T Indoor,21.0,°C,False
+2026-03-05T00:43:17.616356,"analog-input,1",T Water,34.900001525878906,°C,False
+2026-03-05T00:43:18.619607,"analog-input,1",T Water,34.70000076293945,°C,False
+2026-03-05T00:43:18.621366,"multi-state-value,1",Vent Level,2,,False
+2026-03-05T00:43:18.622466,"binary-value,0",Heater,1,,False
+2026-03-05T00:43:18.623440,"analog-input,0",T Indoor,20.700000762939453,°C,False
+2026-03-05T00:43:19.623402,"analog-input,0",T Indoor,20.5,°C,False
+2026-03-05T00:43:19.624659,"multi-state-value,1",Vent Level,3,,False
+2026-03-05T00:43:20.627643,"analog-input,0",T Indoor,20.399999618530273,°C,False
+2026-03-05T00:43:20.628918,"multi-state-value,1",Vent Level,4,,False
+2026-03-05T00:43:21.620947,"analog-input,1",T Water,34.599998474121094,°C,False
+2026-03-05T00:43:21.622255,"analog-input,0",T Indoor,20.600000381469727,°C,False
+2026-03-05T00:43:21.623138,"multi-state-value,1",Vent Level,3,,False
+2026-03-05T00:43:22.619834,"analog-input,1",T Water,34.29999923706055,°C,False
+2026-03-05T00:43:22.621384,"multi-state-value,1",Vent Level,1,,False
+2026-03-05T00:43:22.622447,"binary-value,0",Heater,0,,False
+2026-03-05T00:43:22.624130,"analog-input,0",T Indoor,21.0,°C,False
+2026-03-05T00:43:23.619366,"analog-input,1",T Water,34.20000076293945,°C,False
+2026-03-05T00:43:23.620658,"analog-input,0",T Indoor,21.100000381469727,°C,False
+2026-03-05T00:43:24.629011,"analog-input,0",T Indoor,20.799999237060547,°C,False
+2026-03-05T00:43:24.631154,"analog-input,1",T Water,34.099998474121094,°C,False
+2026-03-05T00:43:24.632497,"binary-value,0",Heater,1,,False
+2026-03-05T00:43:24.633557,"multi-state-value,1",Vent Level,2,,False
+2026-03-05T00:43:25.255134,"analog-input,0",T Indoor,20.799999237060547,°C,False
+2026-03-05T00:43:25.255792,"analog-value,1",Setpoint 1,21.0,°C,False
+2026-03-05T00:43:25.256339,"analog-value,0",T Set,21.0,°C,False
+2026-03-05T00:43:25.258330,"analog-value,2",Setpoint 2,19.0,°C,False
+2026-03-05T00:43:25.261230,"analog-value,3",Setpoint 3,17.0,°C,False
+2026-03-05T00:43:25.264311,"analog-input,1",T Water,34.099998474121094,°C,False
+2026-03-05T00:43:25.264988,"analog-input,2",T Outdoor,12.0,°C,False
+2026-03-05T00:43:25.267414,"multi-state-value,1",Vent Level,2,,False
+2026-03-05T00:43:25.267998,"multi-state-value,0",State,2,,False
+2026-03-05T00:43:25.270277,"binary-value,0",Heater,1,,False
+2026-03-05T00:43:25.272317,"binary-value,1",Chiller,0,,False
+2026-03-05T00:43:25.625991,"analog-input,0",T Indoor,20.600000381469727,°C,False
+2026-03-05T00:43:25.628135,"multi-state-value,1",Vent Level,3,,False
+2026-03-05T00:43:26.625957,"analog-input,1",T Water,34.0,°C,False
+2026-03-05T00:43:26.627465,"analog-input,0",T Indoor,20.5,°C,False
+2026-03-05T00:43:27.626927,"analog-input,0",T Indoor,20.600000381469727,°C,False
+2026-03-05T00:43:28.617077,"multi-state-value,1",Vent Level,2,,False
+2026-03-05T00:43:28.618400,"analog-input,0",T Indoor,20.799999237060547,°C,False
+2026-03-05T00:43:29.618694,"analog-input,0",T Indoor,20.899999618530273,°C,False
+2026-03-05T00:43:30.622238,"analog-input,0",T Indoor,20.799999237060547,°C,False
+2026-03-05T00:43:32.621797,"analog-input,1",T Water,34.20000076293945,°C,False
+2026-03-05T00:43:32.623187,"analog-input,0",T Indoor,20.700000762939453,°C,False
+2026-03-05T00:43:33.644628,"analog-input,0",T Indoor,20.600000381469727,°C,False
+2026-03-05T00:43:33.651832,"multi-state-value,1",Vent Level,3,,False
+2026-03-05T00:43:33.652812,"analog-input,1",T Water,34.29999923706055,°C,False
+2026-03-05T00:43:34.641118,"analog-input,1",T Water,34.599998474121094,°C,False
+2026-03-05T00:43:35.639960,"analog-input,1",T Water,34.79999923706055,°C,False
+2026-03-05T00:43:35.641805,"multi-state-value,1",Vent Level,2,,False
+2026-03-05T00:43:35.643224,"analog-input,0",T Indoor,20.700000762939453,°C,False
+2026-03-05T00:43:36.636572,"analog-input,1",T Water,35.0,°C,False
+2026-03-05T00:43:36.637784,"analog-input,0",T Indoor,20.899999618530273,°C,False
+2026-03-05T00:43:38.654345,"analog-input,1",T Water,35.400001525878906,°C,False
+2026-03-05T00:43:38.656091,"analog-input,0",T Indoor,20.799999237060547,°C,False
+2026-03-05T00:43:39.655362,"analog-input,1",T Water,35.5,°C,False
+2026-03-05T00:43:39.656881,"analog-input,0",T Indoor,20.700000762939453,°C,False
+2026-03-05T00:43:40.652087,"analog-input,1",T Water,35.599998474121094,°C,False
+2026-03-05T00:43:41.647440,"analog-input,1",T Water,35.900001525878906,°C,False
+2026-03-05T00:43:41.648810,"multi-state-value,1",Vent Level,3,,False
+2026-03-05T00:43:42.675442,"analog-input,1",T Water,36.099998474121094,°C,False
+2026-03-05T00:43:42.676942,"analog-input,0",T Indoor,20.600000381469727,°C,False
+2026-03-05T00:43:43.668930,"analog-input,1",T Water,36.5,°C,False
+2026-03-05T00:43:43.670344,"analog-input,0",T Indoor,20.799999237060547,°C,False
+2026-03-05T00:43:43.672447,"multi-state-value,1",Vent Level,2,,False
+2026-03-05T00:43:44.665387,"analog-input,1",T Water,36.70000076293945,°C,False
+2026-03-05T00:43:44.666717,"binary-value,0",Heater,0,,False
+2026-03-05T00:43:44.668018,"analog-input,0",T Indoor,21.0,°C,False
+2026-03-05T00:43:44.669192,"multi-state-value,1",Vent Level,1,,False
+2026-03-05T00:43:45.666462,"analog-input,1",T Water,36.900001525878906,°C,False
+2026-03-05T00:43:46.672297,"analog-input,0",T Indoor,20.700000762939453,°C,False
+2026-03-05T00:43:46.673593,"analog-input,1",T Water,37.0,°C,False
+2026-03-05T00:43:46.674580,"multi-state-value,1",Vent Level,2,,False
+2026-03-05T00:43:46.675601,"binary-value,0",Heater,1,,False
+2026-03-05T00:43:47.666919,"analog-input,1",T Water,37.20000076293945,°C,False
+2026-03-05T00:43:47.669120,"multi-state-value,1",Vent Level,3,,False
+2026-03-05T00:43:47.670192,"analog-input,0",T Indoor,20.5,°C,False
+2026-03-05T00:43:48.668964,"analog-input,1",T Water,37.70000076293945,°C,False
+2026-03-05T00:43:49.288829,"analog-input,1",T Water,37.70000076293945,°C,False
+2026-03-05T00:43:49.291940,"analog-input,2",T Outdoor,12.0,°C,False
+2026-03-05T00:43:49.293346,"analog-value,0",T Set,21.0,°C,False
+2026-03-05T00:43:49.296256,"analog-value,2",Setpoint 2,19.0,°C,False
+2026-03-05T00:43:49.297393,"analog-value,1",Setpoint 1,21.0,°C,False
+2026-03-05T00:43:49.301130,"analog-value,3",Setpoint 3,17.0,°C,False
+2026-03-05T00:43:49.302975,"binary-value,0",Heater,1,,False
+2026-03-05T00:43:49.305411,"analog-input,0",T Indoor,20.5,°C,False
+2026-03-05T00:43:49.306472,"binary-value,1",Chiller,0,,False
+2026-03-05T00:43:49.308396,"multi-state-value,0",State,2,,False
+2026-03-05T00:43:49.310294,"multi-state-value,1",Vent Level,3,,False
+2026-03-05T00:43:49.666549,"analog-input,1",T Water,38.29999923706055,°C,False
+2026-03-05T00:43:49.668157,"analog-input,0",T Indoor,20.700000762939453,°C,False
+2026-03-05T00:43:49.669339,"multi-state-value,1",Vent Level,2,,False
+2026-03-05T00:43:50.663293,"analog-input,1",T Water,38.5,°C,False
+2026-03-05T00:43:50.665083,"multi-state-value,1",Vent Level,1,,False
+2026-03-05T00:43:50.666395,"binary-value,0",Heater,0,,False
+2026-03-05T00:43:50.669041,"analog-input,0",T Indoor,21.0,°C,False
+2026-03-05T00:43:51.675149,"analog-input,1",T Water,38.900001525878906,°C,False
+2026-03-05T00:43:52.671543,"analog-input,1",T Water,39.20000076293945,°C,False
+2026-03-05T00:43:52.672773,"binary-value,0",Heater,1,,False
+2026-03-05T00:43:52.674450,"analog-input,0",T Indoor,20.700000762939453,°C,False
+2026-03-05T00:43:52.675336,"multi-state-value,1",Vent Level,2,,False

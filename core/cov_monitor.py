@@ -86,7 +86,88 @@ console = Console()
 # =============================================================================
 # DATA STRUCTURES
 # =============================================================================
+def _unwrap_bacnet_value(raw) -> float | bool | int | str | None:
+    """
+    Unwrap a bacpypes3 value into a plain Python type.
 
+    COV listOfValues uses 'Any' as a generic container.
+    'Any' requires cast_out() to decode — .value doesn't work on it.
+    We try each common BACnet primitive type in order until one succeeds.
+    """
+    if raw is None:
+        return None
+
+    # Already a plain Python type — nothing to do
+    if isinstance(raw, (int, float, str)):
+        return raw
+    # bool check MUST come before int (bool is subclass of int in Python)
+    if isinstance(raw, bool):
+        return raw
+
+    type_name = type(raw).__name__
+
+    # ── Handle bacpypes3 'Any' container (used in COV listOfValues) ───────
+    # 'Any' wraps tag-encoded bytes. Use cast_out() to decode to real type.
+    if type_name == "Any":
+        from bacpypes3.primitivedata import (
+            Real, Double, Boolean, Unsigned, Integer,
+            CharacterString, Enumerated
+        )
+        # Try in order: Real first (most common for sensors/setpoints)
+        for cast_type in [Real, Double, Boolean, Unsigned, Integer,
+                          Enumerated, CharacterString]:
+            try:
+                decoded = raw.cast_out(cast_type)
+                return _unwrap_bacnet_value(decoded)   # recurse to unwrap result
+            except Exception:
+                continue
+        log.warning(f"Could not cast Any value — no matching type found")
+        return None
+
+    # ── Direct known bacpypes3 primitive types ────────────────────────────
+    if type_name in ("Real", "Double"):
+        try:
+            return float(str(raw))
+        except (ValueError, TypeError):
+            pass
+
+    if type_name == "Boolean":
+        try:
+            return bool(int(str(raw)))
+        except (ValueError, TypeError):
+            return bool(raw)
+
+    if type_name in ("Unsigned", "Unsigned16", "Unsigned32", "Integer"):
+        try:
+            return int(str(raw))
+        except (ValueError, TypeError):
+            pass
+
+    if type_name in ("Enumerated", "EnumeratedMetaclass"):
+        try:
+            return int(str(raw))
+        except (ValueError, TypeError):
+            pass
+
+    if type_name == "CharacterString":
+        return str(raw)
+
+    # ── AnyAtomic or other wrappers — unwrap .value ───────────────────────
+    if hasattr(raw, "value"):
+        return _unwrap_bacnet_value(raw.value)
+
+    # ── Last resort — parse from string representation ────────────────────
+    s = str(raw)
+    if s.startswith("<"):
+        log.warning(f"Could not decode: type={type_name}, repr={s[:60]}")
+        return None
+    try:
+        return int(s)
+    except ValueError:
+        try:
+            return float(s)
+        except ValueError:
+            return s
 @dataclass
 class COVNotification:
     """
@@ -225,7 +306,12 @@ class COVApplication(NormalApplication):
                 prop_name = str(element.propertyIdentifier)
                 values[prop_name] = element.value
 
-            present_value = values.get("present-value")
+            raw_pv = values.get("present-value")
+            #present_value = self._decode_bacnet_value(raw_pv)
+            #               ^^^^
+            # 'self' here is COVApplication — it does NOT have _decode_bacnet_value
+            # This will throw AttributeError at runtime
+            present_value = _unwrap_bacnet_value(raw_pv)
 
             await self.notification_queue.put({
                 "object_id":    obj_id,
@@ -477,12 +563,7 @@ class COVMonitor:
 
         t = state.target
         prev_value = state.latest_value
-
-        # Decode value
-        try:
-            value = float(raw_value) if raw_value is not None else None
-        except (TypeError, ValueError):
-            value = str(raw_value) if raw_value is not None else None
+        value = raw["present_value"]   # already decoded by _unwrap_bacnet_value
 
         # Check alarm thresholds
         in_alarm = False
