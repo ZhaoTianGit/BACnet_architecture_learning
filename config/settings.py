@@ -62,12 +62,17 @@ from dataclasses import dataclass, field
 @dataclass
 class DUTConfig:
     ip:          str = "192.168.100.183"
-    port:        int = 63205
+    port:        int = 0    # `0` means **"no default — caller must provide this"**. It's a deliberate sentinel value that forces every entry point to explicitly set the port.
     device_id:   int = 3506259
     object_id:   str = "analog-value,0"
     object_name: str = "SetPoint.Value"
 
-
+def __post_init__(self):
+    if self.port == 0:
+        raise ValueError(
+            "DUT port not configured. "
+            "Set cfg.dut.port in your entry point (main_cov.py, api_server.py etc.)"
+        )
 @dataclass
 class NetworkConfig:
     local_ip:    str = "192.168.100.183"

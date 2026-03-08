@@ -43,7 +43,7 @@ from hooks.cov_hooks import register_cov_hooks
 
 
 def configure():
-    cfg.dut.port                = 53218   # ⚠ update from Yabe after every restart
+    cfg.dut.port                = 62856   # ⚠ update from Yabe after every restart
     cfg.cov.lifetime            = 30     # subscription lifetime in seconds
     cfg.cov.show_live_table     = True
     cfg.cov.log_to_csv          = True
